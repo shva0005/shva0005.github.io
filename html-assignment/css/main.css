@@ -16,14 +16,21 @@ footer, header {
     color: black
 }
 
-li:nth-child(odd) {
+div li:nth-child(odd) {
     background-color: teal;
 }
 
-ul {
+ul, .site-titlelist {
   list-style-type: none;
+  background-color: aqua;
 }
 
-a {
+ a {
   text-decoration: none;
+  border: 3px solid black;
+}
+
+a:hover {
+  background-color: darkblue;
+  color: white; 
 }
