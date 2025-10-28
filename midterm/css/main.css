@@ -1,11 +1,32 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(167, 210, 206);
-
 }
 
 .wrapper {
-    background-color: white;
-    width: 700px;
-    margin: 0 auto; 
+    width: 80%;
+    max-width: 1100px;
+    margin: auto;
+    background-color: #e1fffd;
+    padding-bottom: 30px;
+}
+
+header {
+    text-align: center;
+    position: relative;
+    background-color: #d5e8e6;
+}
+
+.wide {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    font-size: 3rem;
+    color: white;
+    font-weight: lighter;
 }
