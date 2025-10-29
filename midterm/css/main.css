@@ -1,4 +1,4 @@
-body {
+body { 
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(167, 210, 206);
 }
@@ -20,7 +20,7 @@ header {
     height: auto;
 }
 
-h1 {
+h1 { /*places the header on top of the image*/
     position: absolute;
     top: 50%;
     left: 35%;
@@ -34,7 +34,7 @@ nav {
     text-align: center;
 }
 
-nav li {
+nav li { /*Makes my nav look the way it does*/
     display: inline;
     padding: 15px 80px;
     border-right: 1px solid black;
@@ -58,7 +58,7 @@ main, footer {
     padding: 15px;
 }
 
-.float .image {
+.float .image { /*formats small image*/
     float: left;
     margin: 0px 20px 10px 0;
     width: 200px;
@@ -72,7 +72,7 @@ input[type="text"] {
     margin-bottom: 10px;
 }
 
-textarea {
+textarea { /*formats the message box*/
     display: block;
     width: 100%;        
     padding: 8px;
