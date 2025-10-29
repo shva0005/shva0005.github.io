@@ -5,10 +5,9 @@ body {
 
 .wrapper {
     width: 80%;
-    max-width: 1100px;
+    max-width: 900px;
     margin: auto;
     background-color: #e1fffd;
-    padding-bottom: 10px;
 }
 
 header {
@@ -24,7 +23,7 @@ header {
 h1 {
     position: absolute;
     top: 50%;
-    left: 38%;
+    left: 35%;
     font-size: 3rem;
     color: white;
     font-weight: lighter;
@@ -37,13 +36,14 @@ nav {
 
 nav li {
     display: inline;
-    padding: 10px 80px;
+    padding: 15px 80px;
     border-right: 1px solid black;
 }
 
 nav a {
     text-decoration: none;
     color: black;
+    font-size: 1.5rem;
 }
 
 nav li:last-child {
@@ -63,4 +63,35 @@ main, footer {
     margin: 0px 20px 10px 0;
     width: 200px;
 }
+
+
+
+input[type="text"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+textarea {
+    display: block;
+    width: 100%;        
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+button {
+    display: block;
+    background-color: transparent;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 8px 10px;
+    border-color: black;
+}
+
+footer {
+    text-align: right;
+}
+
 
