@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*START OF MY CSS*/
+
+@import url('//fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+}
+
+/*logo and nav styling*/
+
+header {
+  background-color: #222;
+  padding: 0.5rem; 
+}
+
+.logo {
+    padding: 0.5rem;
+    background-color: #c78c06;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav a {
+  display: flex;
+  text-decoration: none;
+  color: #c78c06;
+  margin: 0.5rem;
+}
+
+main img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2.3rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-top: 1.3rem;
+}
+
+p {
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+  margin-left: 0.3rem;
+}
+
+.wrapper {
+  background-image: url("/images/main-banner.jpg");
+  padding: 10rem 1rem;
+  background-position: center;
+  background-size: cover;  
+}
+
+.maincontent {
+    background-color: #222;
+    opacity: 0.8;
+    padding: 1rem 0.5rem;
+    color: white;
+}
+
+.wrapper a {
+  display: inline-block;
+  background-color: #c78c06;
+  color: white;
+  text-decoration: none;
+  margin-left: 0.3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 1.2rem;
+}
+
+.about {
+  background-color: #ffe6ac;
+  padding: 0.4rem;
+}
+
+.card {
+  background-color: #ffe6ac;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin-left: 0.5rem;
+
+}
+
+.card a {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  margin-left: 0.3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 1.2rem;
+}
+
+.vision {
+  background-image: url("/images/vision.jpg");
+  padding-top: 1rem;
+  background-position: center;
+  color: white;
+}
+
+.vision h2 {
+  font-size: 1.8rem;
+}
+
+.vision a {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  margin-left: 0.3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 1.2rem;
+}
+
+.team h2 {
+  padding-top: 2rem;
+}
