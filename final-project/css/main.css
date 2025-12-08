@@ -276,3 +276,22 @@ textarea { /*formats the message box*/
     margin-top: 15px;
     margin-bottom: 5px;
 }
+
+table, th, td, tr {
+  border: 1px solid black;
+  padding: 1rem;
+  width: 100%;
+}
+
+th {
+  background-color: #ffe6ac;
+  justify-content: center;
+}
+
+footer {
+  background-color: #222;
+  color: #c78c06;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+
+}
